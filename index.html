@@ -1,28 +1,26 @@
-<!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>My Profile a Personal Portfolio category Flat bootstrap Responsive  Website Template :: w3layouts</title>
+<title>&lt;BM8/&gt;</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="keywords" content="My Profile Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="Hello. My name is Bogdan Mihut and I am a Ui Developer." />
 <!-- css files -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/cobox.css" rel="stylesheet" type="text/css">
 <link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/sweetalert.css" rel="stylesheet" type="text/css" media="all">
 <!-- /css files -->
 <!-- font links -->
 <link href='//fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <!-- /font links -->	
 <!-- js files -->
 <script src="js/modernizr.custom.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script src="https://use.fontawesome.com/00290ca966.js"></script>
 <!-- /js files -->
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -38,14 +36,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">My Profile</a>
+              <a class="navbar-brand" href="index.html">&lt;BM8/&gt;</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav link-effect">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#contact">Contact</a></li>
               </ul>
             </div>
@@ -55,51 +52,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
     </div>
 <!-- Banner -->
-<div class="banner">
+<div class="banner" id="gradient">
+	<img class="banner-image" src="images/pexels-photo.jpg" alt="Banner image">
 	<ul class="rslides" id="slider">
 		<li>
 			<div class="banner-info">
-				<h3>Its My Life</h3>
+				<h3>Web Development</h3>
 				<span class="line1"></span>
-				<p>Lorem Ipsum is dummy text.</p>
+				<p>Fast and interactive websites.</p>
 				<span class="line2"></span>
-				<div class="social-icons">
-					<a href="#"><span class="facebook"></span></a>
-					<a href="#"><span class="twitter"></span></a>
-					<a href="#"><span class="linkedin"></span></a>
-					<a href="#"><span class="googleplus"></span></a>
-				</div>
 			</div>	
 		</li>
 		<li>
 			<div class="banner-info">
-				<h3>My Passion</h3>
+				<h3>Graphic Design</h3>
 				<span class="line1"></span>
-				<p>Lorem Ipsum is dummy text.</p>
+				<p>From branding to user interfaces.</p>
 				<span class="line2"></span>
-				<div class="social-icons">
-					<a href="#"><span class="facebook"></span></a>
-					<a href="#"><span class="twitter"></span></a>
-					<a href="#"><span class="linkedin"></span></a>
-					<a href="#"><span class="googleplus"></span></a>
-				</div>
 			</div>
 		</li>
 		<li>
 			<div class="banner-info">
-				<h3>My Life Style</h3>
+				<h3>Mobile Applications</h3>
 				<span class="line1"></span>
-				<p>Lorem Ipsum is dummy text.</p>
+				<p>Android or iOs, you name it.</p>
 				<span class="line2"></span>
-				<div class="social-icons">
-					<a href="#"><span class="facebook"></span></a>
-					<a href="#"><span class="twitter"></span></a>
-					<a href="#"><span class="linkedin"></span></a>
-					<a href="#"><span class="googleplus"></span></a>
-				</div>
 			</div>
 		</li>
-	</ul>	
+	</ul>
+	<div class="slide-down"><p class="text-center"><span class="glyphicon glyphicon-download" id="scrollDown"></span></p></div>
+	<!--<div class="row" style="height:100px;">-->
+	<!--	<img src="images/technology.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	<!--	<img src="images/technology-1.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	<!--	<img src="images/ux.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	<!--	<img src="images/web-design.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	<!--	<img src="images/computer-2.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	<!--	<img src="images/technology-2.svg" class="col-xs-2 img-responsive" alt="Icon made by Freepik from www.flaticon.com ">-->
+	
+	<!--</div>-->
 </div>
 <!-- /Banner -->
 <!-- About -->
@@ -107,56 +97,51 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<h3 class="text-center slideanim">About My Skills</h3>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-xs-12">
-				<div class="mydetails slideanim text-center">
-					<img class="img-circle img-responsive" src="images/man.jpg" alt="Generic placeholder image" width="200" height="200">
-					<h3>Tzar Nicholas</h3>
-					<p>Web Designer</p>
-					<div class="social-icons">
-						<a href="#"><span class="facebook"></span></a>
-						<a href="#"><span class="twitter"></span></a>
-						<a href="#"><span class="linkedin"></span></a>
-						<a href="#"><span class="googleplus"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-8 col-xs-12">
+			<!--<div class="col-md-4 col-xs-12">-->
+			<!--	<div class="mydetails slideanim text-center">-->
+			<!--		<img class="img-circle img-responsive" src="" alt="" width="200" height="200">-->
+			<!--	</div>-->
+			<!--</div>-->
+			<div class="col-md-12 col-xs-12">
 				<div class="myskills slideanim">
-					<h3 class="text-center">My Skill Info</h3>
-					<p class="skill-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					<div class="skill-info"> 
-						<div class="table-responsive">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td><h4>Photoshop</h4></td>
-										<td><span class="longline1"></span><span class="shortline1"></span></td>
-										<td><p>89%</p></td>
-									</tr>
-									<tr>
-										<td><h4>Multimedia</h4></td>
-										<td><span class="longline2"></span><span class="shortline2"></span></td>
-										<td><p>90%</p></td>
-									</tr>
-									<tr>
-										<td><h4>After-Effects</h4></td>
-										<td><span class="longline3"></span><span class="shortline3"></span></td>
-										<td><p>95%</p></td>
-									</tr>
-									<tr>
-										<td><h4>Wordpress</h4></td>
-										<td><span class="longline4"></span><span class="shortline4"></span></td>
-										<td><p>92%</p></td>
-									</tr>
-									<tr>
-										<td><h4>HTML5</h4></td>
-										<td><span class="longline5"></span><span class="shortline5"></span></td>
-										<td><p>96%</p></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>	
+					<h4>Proficient with:</h4>
+					<div class="row">
+						<div class="col-xs-3 text-center"><p class="skills-p">HTML5<i class="fa fa-html5" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">CSS3<i class="fa fa-css3" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">JavaScript<i class="fa fa-file-code-o" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">jQuery<i class="fa fa-dollar" aria-hidden="true"></i></p></div>
 					</div>
+					<div class="row add-margin">
+						<div class="col-xs-3 text-center"><p class="skills-p">Photoshop<i class="fa fa-photo" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Back&<i class="fa fa-file-code-o" aria-hidden="true"></i></p></div>						
+					</div>
+					<h4>Good at:</h4>
+					<div class="row">
+						<div class="col-xs-3 text-center"><p class="skills-p">NativeScript<i class="fa fa-mobile" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Google Maps<i class="fa fa-map-marker" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Bootstrap<i class="fa fa-align-justify" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Node.js<i class="fa fa-code" aria-hidden="true"></i></p></div>
+					</div>
+					<div class="row add-margin">
+						<div class="col-xs-3 text-center"><p class="skills-p">Wordpress<i class="fa fa-wordpress" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">UX Design<i class="fa fa-paint-brush" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Sass<i class="fa fa-file-code-o" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Git<i class="fa fa-git" aria-hidden="true"></i></p></div>
+					</div>
+					<h4>I don't get lost in:</h4>
+					<div class="row">
+						<div class="col-xs-3 text-center"><p class="skills-p">React<i class="fa fa-file-code-o" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Knockout.js<i class="fa fa-code" aria-hidden="true"></i></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">ASP.NET<span class="fa">C#</span></p></div>
+						<div class="col-xs-3 text-center"><p class="skills-p">Symfony2<span class="fa">PHP</span></p></div>
+					</div>
+<!--					<p>-->
+<!--						UX/UI Design-->
+<!--Responsive/Mobile Interfaces-->
+<!--Front-end Development-->
+<!--WordPress Development-->
+<!--Mobile Applications-->
+<!--					</p>-->
 				</div>	
 			</div>
 		</div>	
@@ -166,100 +151,80 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Portfolio -->
 	<div class="myportfolio" id="portfolio">
 		<h3 class="text-center slideanim">My Portfolio</h3>
-		<p class="text-center slideanim">My Recent Projects , Just "Click" on them to know More.</p>
 		<section class="vertical" id="grid3d">
 				<div class="grid-wrap">
 					<div class="grid">
-						<figure><img class="slideanim" src="images/1.jpg" alt="img01"/></figure>
-						<figure><img class="slideanim" src="images/2.jpg" alt="img05"/></figure>
-						<figure><img class="slideanim" src="images/3.jpg" alt="img08"/></figure>
-						<figure><img class="slideanim" src="images/4.jpg" alt="img02"/></figure>
-						<figure><img class="slideanim" src="images/5.jpg" alt="img04"/></figure>
-						<figure><img class="slideanim" src="images/6.jpg" alt="img03"/></figure>
-						<figure><img class="slideanim" src="images/7.jpg" alt="img09"/></figure>
-						<figure><img class="slideanim" src="images/8.jpg" alt="img06"/></figure>
-						<figure><img class="slideanim" src="images/9.jpg" alt="img07"/></figure>
-					</div>
+						<figure class="slideanim"><a href="/images/rship.jpg" target="_blank"><img src="images/rship.jpg" alt="img01"/><div class="hoverDiv"><p class="text-center">ReferralShip</p></div></a></figure>
+						<figure class="slideanim"><a href="/images/tmt.jpg" target="_blank"><img src="images/tmt.jpg" alt="img05"/><div class="hoverDiv"><p class="text-center">TMT</p></div></a></figure>
+						<figure class="npParent slideanim"><a href="/images/NightPal2.png" target="_blank"><img class="nightpalProject" src="images/NightPal.png" alt="img05"/><div class="hoverDiv"><p class="text-center">NightPal</p></div></a></figure>
+						<figure class="slideanim"><a href="/images/appono-logo.jpg" target="_blank"><img src="images/appono-logo.jpg" alt="img05"/><div class="hoverDiv"><p class="text-center">appOno</p></div></a></figure>
+						<figure class="slideanim"><a href="/images/l8n.jpg" target="_blank"><img src="images/l8n.jpg" alt="img05"/><div class="hoverDiv"><p class="text-center">L8est News</p></div></a></figure>
+						<figure class="slideanim"><a href="/images/flat-register.jpg" target="_blank"><img src="images/flat-register.jpg" alt="img05"/><div class="hoverDiv"><p class="text-center">Flat Register</p></div></a></figure>
+
+						</div>
 				</div><!-- /grid-wrap -->
-				<div class="content">
-					<div>
-						<div class="content-img"><img src="images/1-1.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Classy Coming Soon</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/2-2.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">404 Error Page</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/3-3.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Credit Card Validation</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/4-4.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Eshop Product Detail Widget</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/5-5.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Model Profile Widget</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/6-6.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Flat Under Construction</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/7-7.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Impressive Under Construction</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/8-8.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Profile Widget</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div>
-						<div class="content-img"><img src="images/9-9.jpg" class="img-responsive" alt="my projects"></div>
-						<h3 class="content-text">Travel Reservation Widget</h3>
-						<p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<span class="loading"></span>
-					<span class="icon close-content"></span>
-				</div>
+				<!--<div class="content">-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/rship.jpg" target="_blank"><img src="images/rship.jpg" class="img-responsive" alt="my projects"></a></div>-->
+				<!--		<h3 class="content-text">-->
+				<!--			ReferralShip-->
+				<!--			<br><br>-->
+				<!--			<span style="font-size:20px;">HTML, CSS, JavaScript, jQuery, Back&</span>-->
+				<!--		</h3>-->
+				<!--	</div>-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/tmt.jpg" target="_blank"><img src="images/tmt.jpg" class="img-responsive" alt="my projects"></a></div>-->
+				<!--		<h3 class="content-text">Textile Machines Technologies<br><br>-->
+				<!--			<span style="font-size:20px;">Wordpress, HTML, CSS</span>-->
+				<!--		</h3>-->
+						
+				<!--	</div>-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/NightPal2.png" target="_blank"><img src="images/NightPal2.png" class="img-responsive nightpal" alt="my projects"></a></div>-->
+				<!--		<h3 class="content-text">NightPal<br><br>-->
+				<!--			<span style="font-size:20px;">NativeScript, Back&</span>-->
+				<!--		</h3>-->
+						
+				<!--	</div>-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/appono-logo.jpg" target="_blank"><img src="images/appono-logo.jpg" class="img-responsive" alt="my projects"></a></div>-->
+				<!--		<h3 class="content-text">appOno<br><br>-->
+				<!--			<span style="font-size:20px;">Photoshop</span>-->
+				<!--		</h3>-->
+						
+				<!--	</div>-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/l8n.jpg" target="_blank"><img src="images/l8n.jpg" class="img-responsive" alt="my projects" style="width:100%"></a></div>-->
+				<!--		<h3 class="content-text">L8est News<br><br>-->
+				<!--			<span style="font-size:20px;">HTML, CSS, JavaScript, jQuery, News API</span>-->
+				<!--		</h3>-->
+						
+				<!--	</div>-->
+				<!--	<div>-->
+				<!--		<div class="content-img"><a href="/images/flat-register.jpg" target="_blank"><img src="images/flat-register.jpg" class="img-responsive" alt="my projects" style="width:100%"></a></div>-->
+				<!--		<h3 class="content-text">Flat Register<br><br>-->
+				<!--			<span style="font-size:20px;">HTML, CSS</span>-->
+				<!--		</h3>-->
+						
+				<!--	</div>-->
+				<!--	<span class="loading"></span>-->
+				<!--	<span class="icon close-content"></span>-->
+				<!--</div>-->
 			</section>
 		</div>	
 <!-- /Portfolio -->
 <!-- Gallery -->
 <div class="mygallery" id="gallery">
-	<h3 class="text-center slideanim">My Gallery</h3>
-	<div class="text-center"> 
-		<a href="images/me1-1.jpg" title="My Image Gallery"><img src="images/me1.jpg" alt="example-1" class="img-responsive slideanim"></a> 
-		<a href="images/me2-2.jpg" title="My Image Gallery"><img src="images/me2.jpg" alt="example-2" class="img-responsive slideanim"></a> 
-		<a href="images/me3-3.jpg" title="My Image Gallery"><img src="images/me3.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me4-4.jpg" title="My Image Gallery"><img src="images/me4.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me5-5.jpg" title="My Image Gallery"><img src="images/me5.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me6-6.jpg" title="My Image Gallery"><img src="images/me6.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me7-7.jpg" title="My Image Gallery"><img src="images/me7.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me8-8.jpg" title="My Image Gallery"><img src="images/me8.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me9-9.jpg" title="My Image Gallery"><img src="images/me9.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me10-10.jpg" title="My Image Gallery"><img src="images/me10.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me11-11.jpg" title="My Image Gallery"><img src="images/me11.jpg" alt="example-3" class="img-responsive slideanim"></a>
-		<a href="images/me12-12.jpg" title="My Image Gallery"><img src="images/me12.jpg" alt="example-3" class="img-responsive slideanim"></a>	
-	</div>
-
+	<h3 class="text-center slideanim">Let's talk about your next project.</h3>
 </div>	
 <!-- Gallery -->
 <!-- footer -->	
 <div class="contact-me" id="contact">
-	<h3 class="text-center slideanim">Contact Me</h3>
-	<p class="text-center slideanim">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 	<div class="container">
 	<footer>
 		<div class="row">
+			<div class="col-md-3 slideanim">
+			</div>
 			<div class="col-md-6 slideanim">
 				<div class="contact-details">
 					<form action="#" method="post">
@@ -274,41 +239,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
 						<div class="row">
 							<div class="col-sm-12 form-group">
-								<button class="btn btn-default btn-lg" type="submit">Send <span class="glyphicon glyphicon-menu-right"></span></button>
+								<button class="btn btn-default btn-lg" type="submit" id="submit">Send</button>
 							</div>
 						</div>
 					</form>	
 				</div>	
 			</div>	
-			<div class="col-md-6 slideanim">
-				<div class="contact-info">
-					<h4>Contact Info</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<div class="footer-info">
-						<div>	
-							<i class="glyphicon glyphicon-globe"></i>
-							<p class="p1">77 Jack Street</p> 
-							<p class="p2">Chicago, USA</p>
-						</div>
-						<div>
-							<i class="glyphicon glyphicon-phone-alt"></i>
-							<p class="p1">+1 515 151515</p>
-							<p class="p2">+00 1010101010</p>
-						</div>
-						<div>
-							<i class="glyphicon glyphicon-envelope"></i>
-							<p class="p1"><a href="mailto:myemail@something.com">myemail1@example.com</a></p> 
-							<p class="p2"><a href="mailto:myemail@nothing.com">myemail2@example.com</a></p>
-						</div>
-					</div>
-					<h5>Personal Profile</h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				</div>
+			<div class="col-md-3 slideanim">
 			</div>
 		</div>
 		<hr>
 		<div class="copyright">
-			<p class="text-center">© 2016 My Profile. All Rights Reserved.</p>
+			<p class="text-center">© 2017 BM8. All Rights Reserved.</p>
 		</div>
 		<a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		</footer>
@@ -320,6 +262,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/bootstrap.min.js"></script>
 	<!-- js files for banner slider -->
 	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/lettering.min.js"></script>
+	<script src="js/textanimations.js"></script>
 	  <script>
     $(window).load(function() {
 
@@ -346,8 +290,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- /js files for gallery -->	
 	<!-- js for smooth scrolling -->
 	
-		<script>
+<script>
 $(document).ready(function(){
+	$("#submit").on("click", function(e){
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var message = $("#comments").val();
+		e.preventDefault();
+		$.ajax({
+		  method: "POST",
+		  url: 'https://api.backand.com/1/objects/action/items/?name=SendEmailMandrill&parameters={}',
+		  data:
+		  	JSON.stringify({
+		  		"name": name,
+		  		"email": email,
+		  		"message": message
+			}),
+		  beforeSend: function( xhr ) {
+		    xhr.setRequestHeader("AnonymousToken", "5f128db6-fe01-4698-b760-8e6dbc079f24");
+		  }
+		})
+		  .done(function() {
+		    swal("The message has been sent!", "Thank you for contacting me. I will get back to you as soon as possible :)", "success")
+		  })
+		  .fail(function() {
+		    sweetAlert("Oops...", "Something went wrong! Make sure the data you introduced is correct.", "error");
+		  })
+	});
+	
+	
+	
+	
+	//$('.tlt').mouseenter(function(){
+	$( window ).scroll(function() {
+		if($(window).scrollTop() >= $("#about").offset().top)
+			$('.tlt').textillate({ in: { effect: 'wobble'}});
+	})
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
@@ -364,6 +342,72 @@ $(document).ready(function(){
     window.location.hash = hash;
     });
   });
+  //banner gradient
+	  
+	var colors = new Array(
+	  [3,37,108],
+	  [37,65,178],
+	  [23,104,172],
+	  [6,190,225]);
+	
+	var step = 0;
+	//color table indices for: 
+	// current color left
+	// next color left
+	// current color right
+	// next color right
+	var colorIndices = [0,1,2,3];
+	
+	//transition speed
+	var gradientSpeed = 0.002;
+	
+	function updateGradient()
+	{
+	  
+	  if ( $===undefined ) return;
+	  
+	var c0_0 = colors[colorIndices[0]];
+	var c0_1 = colors[colorIndices[1]];
+	var c1_0 = colors[colorIndices[2]];
+	var c1_1 = colors[colorIndices[3]];
+	
+	var istep = 1 - step;
+	var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+	var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+	var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+	var color1 = "rgb("+r1+","+g1+","+b1+")";
+	
+	var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+	var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+	var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+	var color2 = "rgb("+r2+","+g2+","+b2+")";
+	
+	 $('#gradient').css({
+	   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+	    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+	  
+	  step += gradientSpeed;
+	  if ( step >= 1 )
+	  {
+	    step %= 1;
+	    colorIndices[0] = colorIndices[1];
+	    colorIndices[2] = colorIndices[3];
+	    
+	    //pick two new target color indices
+	    //do not pick the same as the current one
+	    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+	    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+	    
+	  }
+	}
+	
+	setInterval(updateGradient,1);
+  //end banner gradient
+  $("#scrollDown").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 500);
+});
 })
 
 </script>
